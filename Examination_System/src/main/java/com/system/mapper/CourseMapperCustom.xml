@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.system.mapper.CourseMapperCustom">
+
+    <resultMap id="sources" type="com.system.po.CourseCustom" >
+        <id column="courseID" property="courseid"/>
+        <result column="courseName" property="coursename"/>
+        <result column="teacherID" property="teacherid"/>
+        <result column="teacherName" property="teacherName" />
+        <result column="courseTime" property="coursetime"/>
+        <result column="classRoom" property="classroom"/>
+        <result column="courseWeek" property="courseweek"/>
+        <result column="courseType" property="coursetype"/>
+        <result column="collegeID" property="collegeid"/>
+        <result column="score" property="score"/>
+    </resultMap>
+
+    <select id="findByPaging" parameterType="PagingVO" resultMap="sources">
+        select course.*, college.collegeName, teacher.userName as teacherName
+        from course, college, teacher
+        WHERE course.collegeID = college.collegeID AND course.teacherID = teacher.userID
+        limit #{toPageNo}, #{pageSize}
+    </select>
+
+</mapper>

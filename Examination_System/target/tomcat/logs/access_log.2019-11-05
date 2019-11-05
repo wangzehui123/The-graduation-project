@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [05/Nov/2019:14:27:21 +0800] "GET /Examination_System HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [05/Nov/2019:14:27:21 +0800] "GET /Examination_System/ HTTP/1.1" 302 - http-bio-8080-exec-3 35
+0:0:0:0:0:0:0:1 - - [05/Nov/2019:14:27:21 +0800] "GET /Examination_System/login.jsp;jsessionid=6245803F01005880CEBA550A2A08557A HTTP/1.1" 200 1915 http-bio-8080-exec-4 59
+0:0:0:0:0:0:0:1 - - [05/Nov/2019:14:27:22 +0800] "GET /Examination_System/js/jquery-3.2.1.min.js HTTP/1.1" 200 86670 http-bio-8080-exec-2 775
+0:0:0:0:0:0:0:1 - - [05/Nov/2019:14:27:22 +0800] "GET /Examination_System/js/bootstrap.min.js HTTP/1.1" 200 37045 http-bio-8080-exec-6 774
+0:0:0:0:0:0:0:1 - - [05/Nov/2019:14:27:22 +0800] "GET /Examination_System/css/bootstrap.min.css HTTP/1.1" 200 138965 http-bio-8080-exec-5 777
+0:0:0:0:0:0:0:1 - - [05/Nov/2019:14:27:22 +0800] "GET /Examination_System/images/a.jpg HTTP/1.1" 200 617679 http-bio-8080-exec-8 7
+0:0:0:0:0:0:0:1 - - [05/Nov/2019:14:27:22 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-10 0
+0:0:0:0:0:0:0:1 - - [05/Nov/2019:14:27:35 +0800] "POST /Examination_System/login HTTP/1.1" 302 - http-bio-8080-exec-10 484
+0:0:0:0:0:0:0:1 - - [05/Nov/2019:14:27:35 +0800] "GET /Examination_System/admin/showStudent HTTP/1.1" 200 8618 http-bio-8080-exec-10 88
+0:0:0:0:0:0:0:1 - - [05/Nov/2019:14:27:35 +0800] "GET /Examination_System/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028 http-bio-8080-exec-10 3
